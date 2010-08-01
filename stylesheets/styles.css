@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "OrbitronMedium";
+  font-weight: normal;
+	font-style: normal;
+  src: url('../type/orbitron-medium-webfont.eot');
+  src: local("☺"),
+    url('../type/orbitron-medium-webfont.woff') format('woff'),
+    url('../type/orbitron-medium-webfont.ttf') format('truetype'),
+    url('../type/orbitron-medium-webfont.svg#webfontsdT8XVIa') format('svg');
+}
+
+body {         
+  width: 100%;
+	margin: 0;
+  font-family: "OrbitronMedium", "Verdana", serif;
+  background-color: #222222;
+  color: white;
+}
+
+h1 { text-align: center; margin-bottom: 0; padding-bottom: -3px; letter-spacing: 1em; }
+h2 { text-align: center; }
+h3 { text-align: center; margin-top: 0; padding-top: 0; }
+h4 { text-align: center; }               
+                
+a { color: white; }
+a:visited { color: white; }
+
+#trailer {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+                  
+div#logo {
+  background-image: url('../images/title.png');
+	margin: auto;
+	width: 512px;
+	height: 128px;
+}
+                                                 
+header {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer {
+  width: 100%;
+  padding-top: 1em;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  text-align: right;
+  background-color: #666666;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0.1, rgb(34,34,34)),
+      color-stop(0.25, rgb(68,68,68)),
+      color-stop(0.5, rgb(102,102,102))
+  );
+  background-image: -moz-linear-gradient(
+      center top,
+      rgb(34,34,34) 10%,
+      rgb(68,68,68) 25%,
+      rgb(102,102,102) 50%
+  );
+}
